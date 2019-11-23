@@ -1,0 +1,174 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+ .tunbo {
+  width: 100%;
+}
+  .search{  
+      width: 80%;  
+    }  
+    .search_arr {  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+      margin-left: 20rpx;  
+    }  
+    .search_arr input{  
+      margin-left: 60rpx;  
+      height: 60rpx;  
+      border-radius: 5px;  
+    }  
+    .bc_text {  
+      line-height: 68rpx;  
+      height: 68rpx;  
+      margin-top: 34rpx;  
+    }  
+      
+    .sousuo {  
+      margin-left: 15rpx;  
+      width: 15%;  
+      line-height: 150%;  
+      text-align: center;  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+    }
+     .lunbo{
+      width: 100%;
+    }  
+
+   .gehe{
+     width: 100%;
+     height: 4px;
+   }
+
+    /* 搜索框 */
+    .page_row{  
+      display: flex;  
+      flex-direction: row  
+    }  
+    .searchcion {  
+      margin: 10rpx 10rpx 10rpx 10rpx;  
+      position: absolute;  
+      left:25rpx;  
+      z-index: 2;  
+      width: 20px;  
+      height: 20px;  
+      text-align: center;  
+    } 
+    .zi{
+      width: 100%;
+      height: 100%;
+    } 
+    
+ 
+
+ /* 轮播文本开始 */
+ 
+.scroll_notice {
+/* position: absolute; */
+border-radius: 5%;
+left: 0px;
+top: 0px;
+width: 100%;
+white-space: nowrap;
+height: 65rpx;
+background-color: #fdb92c;
+}
+ 
+.scroll_notice_item_image {
+position: absolute;
+left: 0px;
+top: 14rpx;
+width: 49rpx;
+height: 38rpx;
+}
+ 
+.scroll_notice_item {
+margin-left: 61rpx;
+margin-top: 14rpx;
+height: 37rpx;
+font-family: PingFangSC;
+font-size: 26rpx;
+font-weight: 500;
+letter-spacing: 1rpx;
+text-align: left;
+color: #fff;
+}
+ 
+.scroll_notice_item_bg {
+position: relative;
+margin-left: 20rpx;
+height: 100%;
+display: inline-flex;
+}
+.js{
+ 
+  width: 50%;
+  height: 50px;
+  border:1px  solid   rgb(201, 191, 191);
+}
+.fd{  
+   
+  display: flex;
+}
+
+.lj{
+text-align: center;
+line-height: 50px;
+font-family:NSimSun;
+ 
+}
+.tp{
+  width: 20px;
+  height: 20px;
+  
+ 
+}
+.xxzx{
+  width: 10px;
+  height: 50px;
+  border:1px solid #e22525; 
+}
+.tuijian{
+  font-family:SimHei;
+}
+.fengjing{
+  width:50%;
+  height: 30px;
+ 
+ 
+}
+.size{
+  font-size: 9px;
+}
+.tj{
+   
+  height: 50px;
+  display: flex;
+}
+.xian{
+  
+ height: 90px;
+ border: 1px solid #d0d0d0;
+}
+.tupian{
+  width: 160px;
+  height: 70px;
+}

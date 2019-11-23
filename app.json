@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/scan/scan",
+    "pages/logs/logs",
+    "wode/sjbd/sjbd",
+    "wode/ydwz/ydwz",
+    "wode/ljhq/ljhq",
+    "wode/wdsc/wdsc",
+    "wode/yjfk/yjfk",
+    "wode/sz/sz"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fdb92c",
+    "navigationBarTitleText": "合七挪车",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "rgba(160,162,176)",
+    "selectedColor": "rgb(31,122,244)",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "tupian/icon_home.png",
+        "selectedIconPath": "tupian/icon_home_HL.png"
+        },
+      {
+        "pagePath": "pages/scan/scan",
+        "text": "扫一扫",
+        "iconPath": "tupian/icon_release.png",
+        "selectedIconPath": "tupian/icon_release.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "tupian/icon_mine.png",
+        "selectedIconPath": "tupian/icon_mine_HL.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

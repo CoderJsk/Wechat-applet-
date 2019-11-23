@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<view>
+    <view>
+        <swiper class="lunbo" class="lunbo" indicator-dots="true" autoplay="true" interval="3000">
+            <swiper-item><image class="zi"src="/tupian/banner_1.jpg"   mode="widthFix" bindload='imgHeight'></image></swiper-item>
+            <swiper-item><image class="zi"src="/tupian/banner_2.jpg"  mode="widthFix" bindload='imgHeight'></image></swiper-item>
+            <swiper-item><image class="zi"src="/tupian/banner_3.jpg"  mode="widthFix" bindload='imgHeight'></image></swiper-item>
+        </swiper> 
+    </view>
+  
+    <!-- 这条是隔阂语句 -->
+      <view class="gehe"></view>
+    <!-- 搜索框 -->
+      <view class='page_row' bindtap="suo">  
+      <view class="search">  
+        <view class="df search_arr">  
+          <icon class="searchcion" size='20' type='search'></icon>  
+          <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}"/>  
+        </view>  
+      </view>  
+      <view class='sousuo'>搜索</view>  
+    </view> 
+
+
+ <!-- 轮播文本 -->
+ <view class="gehe"></view>
+<scroll-view class='scroll_notice'>
+<view class='scroll_notice_item_bg' animation="{{animationData_notice}}">
+<view class="scroll_notice_item_bg">
+<image class='scroll_notice_item_image'  ></image>
+<view class='scroll_notice_item'>欢迎来到合七电子科技有限公司</view>
+</view>
+<view class="scroll_notice_item_bg">
+<image class='scroll_notice_item_image'  ></image>
+<view class='scroll_notice_item'> </view>
+</view>
+</view>
+</scroll-view>
+ 
+ <view class="gehe"></view>
+     <view class="fd">
+       <view class="js">
+          <view  class="lj">
+            <image class="tp" src='/tupian/liaojie.png'></image><text> 了解合七</text>
+          </view>
+       </view>
+       <view class="js">
+           <view  class="lj">
+            <image class='tp'src="/tupian/jiesao.png"></image><text>软件介绍</text>
+          </view> 
+       </view>
+     </view>
+     <view class="fd">
+     <view class="js">
+         <view  class="lj">
+            <image class='tp'src="/tupian/jianjie.png"></image><text>公司简介</text>
+          </view>     
+     
+     </view>
+      <view class="js">
+          <view  class="lj">
+            <image class='tp'src="/tupian/zixun.png"></image><text>新闻资讯</text>
+          </view>
+      </view>
+     </view>
+
+     <view class="gehe"></view>
+
+  <view class="xian">
+                 <view clas="xxzx">
+        
+                  <text class="tuijian"> 推荐</text>  
+                  <text decode="{{true}}" space="{{true}}" class="size"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 更多</text> 
+                 </view>
+
+
+             <view class="tj">
+             <view   class="fengjing">这是合肥学院最美的风景照片榜，希望你会喜欢</view>
+             <view><image class="tupian" src='/tupian/hfuu.jpg' ></image> </view>
+             </view>
+
+  </view>
+
+</view>

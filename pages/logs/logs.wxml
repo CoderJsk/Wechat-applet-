@@ -1,0 +1,91 @@
+<!--logs.wxml-->
+
+<view class="head-bg">
+    
+</view>
+ 
+<view class="member">
+    <view class="info-box">
+        <view class="info">
+            <view class="url">
+            	 
+                <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <view class="name">
+           
+                <open-data type="userNickName"></open-data>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="hr"></view>
+<!--手机绑定 -->
+<navigator url="/wode/sjbd/sjbd"  hover-class="weui-cell_active"> 
+<view  class='item'>  
+<view class="title">手机绑定</view>
+    <view class="detail2">
+     <text> ></text>
+    </view>
+</view>
+</navigator>
+
+<view class="line"></view>
+<!-- 阅读文章 -->
+<navigator url="/wode/ydwz/ydwz"  hover-class="weui-cell_active">  
+<view class='item'>
+<view class="title">阅读文章</view>
+
+  <view class="detail2">
+    <text>></text>
+  </view>
+</view>
+</navigator>
+
+<view class="hr"></view>
+
+<!-- 了解合七 -->
+<navigator url="/wode/ljhq/ljhq"  hover-class="weui-cell_active">
+<view class='item'>
+  <view class="title">了解合七</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator> 
+
+<view class="line"></view>
+
+<!-- 我的收藏 -->
+<navigator url="/wode/ljhq/ljhq"  hover-class="weui-cell_active">
+<view class="item">
+  <view class="title">我的收藏</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+</navigator>
+
+
+<view class="line"></view>
+<!-- 意见反馈 -->
+<navigator url="/wode/yjfk/yjfk"  hover-class="weui-cell_active">
+<view class="item">
+  <view class="title">意见反馈</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+ </navigator>
+<view class="line"></view>
+
+<!-- 设置 -->
+<navigator url="/wode/sz/sz"  hover-class="weui-cell_active">
+<view class="item">
+  <view class="title">设置</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+<view class="hr"></view>
+ </navigator>

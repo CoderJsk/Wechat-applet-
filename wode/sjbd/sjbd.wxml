@@ -1,0 +1,6 @@
+<!--wode/sjbd/sjbd.wxml-->
+<view>
+<button class='pop_btn' plain="true"
+open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">获取用户手机号</button>
+ 
+</view>
